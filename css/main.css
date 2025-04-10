@@ -217,6 +217,7 @@ html {
 @media (max-width: 480px) {
   .header {
     background-image: none;
+    height: fit-content;
   }
 
   .header__title {
