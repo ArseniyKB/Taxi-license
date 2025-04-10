@@ -68,6 +68,10 @@ html {
 }
 
 @media (max-width: 480px) {
+  .nav {
+    position: unset;
+  }
+
   .nav__container {
     justify-content: center;
     flex-direction: column;
@@ -207,8 +211,6 @@ html {
 @media (max-width: 480px) {
   .header {
     background-image: none;
-    height: 50vh;
-    margin-bottom: 150px;
   }
 
   .header__title {
@@ -363,6 +365,7 @@ html {
     font-size: 18px;
     padding: 20px;
     width: 198px;
+    box-shadow: none;
   }
 
   .info__list-item__title {
@@ -371,6 +374,12 @@ html {
 
   .info__list-item:nth-child(1) img {
     width: 64px;
+  }
+}
+
+@media (max-width: 377px) {
+  .info__list-item {
+    width: 115px;
   }
 }
 
@@ -497,6 +506,16 @@ html {
   .need__text-down-wr {
     left: 150px;
     bottom: 5px;
+  }
+}
+
+@media (max-width: 377px) {
+  .need__text-top-wr {
+    right: -19px;
+  }
+
+  .need__text-down-wr {
+    left: 134px;
   }
 }
 
@@ -670,12 +689,12 @@ html {
   }
 
   .services__list-item:nth-child(2) {
-    width: 439px;
-    height: 574px;
+    width: 413px;
+    height: 626px;
   }
 
   .services__list-actions {
-    left: 96px;
+    left: 87px;
     top: 87px;
   }
 
@@ -685,6 +704,26 @@ html {
 
   .services__list-item:nth-child(3) {
     display: none;
+  }
+}
+
+@media (max-width: 377px) {
+  .services__list-actions__desc {
+    font-size: 11px;
+  }
+
+  .services__list-item:nth-child(2) {
+    width: 330px;
+    height: 519px;
+  }
+
+  .services__list-item-title {
+    font-size: 14px;
+  }
+
+  .services__list-actions {
+    left: 74px;
+    top: 64px;
   }
 }
 
@@ -805,10 +844,12 @@ html {
     row-gap: 20px;
     align-items: center;
     margin-bottom: 15px;
+    padding: 0 20px;
   }
 
   .requirements__list-item {
     box-shadow: none;
+    padding: 0;
   }
 
   .requirements__list-item__image {
@@ -821,6 +862,22 @@ html {
 
   .requirements__list-item__title {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 377px) {
+  .requirements__list {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+  .requirements__list-item__image {
+    width: 200px;
+  }
+
+  #three-image {
+    margin-bottom: 20px;
   }
 }
 
