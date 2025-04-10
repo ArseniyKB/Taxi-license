@@ -45,8 +45,8 @@ html {
   border-style: solid;
   border-color: transparent;
   position: absolute;
-  left: 76px;
-  top: 37px;
+  left: 70px;
+  top: 35px;
 }
 
 .nav-wrapper-right {
@@ -84,8 +84,8 @@ html {
 
   .logo p {
     font-size: 14px;
-    left: 63px;
-    top: 36px;
+    left: 64px;
+    top: 34px;
   }
 
   .nav__phone {
@@ -205,6 +205,7 @@ html {
 @media (min-width: 1500px) {
   .header {
     background-position: center;
+    height: fit-content;
   }
 }
 
@@ -998,7 +999,7 @@ html {
 @media (max-width: 480px) {
   .application {
     background-image: none;
-    background-color: rgb(253, 255, 115);
+    background-color: #fddaa5;
   }
 
   .application__container {
