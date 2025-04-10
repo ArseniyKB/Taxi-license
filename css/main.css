@@ -208,6 +208,12 @@ html {
   }
 }
 
+@media (max-width: 390px) {
+  .header {
+    height: fit-content;
+  }
+}
+
 @media (max-width: 480px) {
   .header {
     background-image: none;
